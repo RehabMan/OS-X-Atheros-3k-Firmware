@@ -205,6 +205,38 @@
 			<key>PipeNumber</key>
 			<integer>2</integer>
 		</dict>
+		<key>IOath3kfrmwr-0b05-179c</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.${PRODUCT_NAME:rfc1034identifier}</string>
+			<key>IOClass</key>
+			<string>local_IOath3kfrmwr</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>bcdDevice</key>
+			<integer>512</integer>
+			<key>idProduct</key>
+			<integer>6044</integer>
+			<key>idVendor</key>
+			<integer>2821</integer>
+			<key>CheckEndpoints</key>
+			<array>
+				<dict>
+					<key>EndpointNumber</key>
+					<integer>2</integer>
+					<key>TransferType</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>EndpointNumber</key>
+					<integer>1</integer>
+					<key>TransferType</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>PipeNumber</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Open Source 2012-2013 mac4mat, RehabMan</string>
